@@ -65,6 +65,8 @@ export default function TabLayout() {
           freezeOnBlur: false,
           headerShown: false,
           tabBarHideOnKeyboard: true,
+            tabBarActiveTintColor: theme.colors.primary,
+          tabBarInactiveTintColor: theme.colors.secondary,
           tabBarStyle: [
             {
               backgroundColor: theme.colors.elevation.level1,
@@ -85,7 +87,6 @@ export default function TabLayout() {
               return (
                 <Icon
                   source={"home"}
-
                   {...props}
                 />
               );

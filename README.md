@@ -23,6 +23,11 @@ A cross-platform mobile application built with React Native, Expo Router, and Re
 
 ---
 
+## 📺 Demo Video
+A complete walkthrough and screen recording of the application features can be viewed here:
+> [🔗 Watch Project Demo on Google Drive](https://drive.google.com/file/d/16WablPChhj7E2m06umJ4IyEeQRJR3dKY/view)
+
+
 ## Valid Requirements Checklist
 * ✅ **Project setup steps** (Included below)
 * ✅ **Login credentials for doctor and patient** (Included below)
