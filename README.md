@@ -1,7 +1,25 @@
 
 # Doctor Appointments - Mobile Application
 
-A cross-platform mobile application built with React Native, Expo Router, and React Native Paper for managing doctor appointments[cite: 2].
+A cross-platform mobile application built with React Native, Expo Router, and React Native Paper for managing doctor appointments.
+
+
+## Key Features of the Mobile Application
+
+* **Cross-Platform Interface**: Built with React Native and Expo Router, supporting both light and dark themes seamlessly.
+* **Secure JWT Session Management**: After login, the JWT token is saved in memory and attached automatically to all subsequent API calls. If a request fails due to an expired or invalid token, the user is safely redirected back to the login screen.
+* **Persistent Session & Auto-Verification**: Upon application startup, if an existing token is found in memory, it is verified against the backend to automatically log the user in and route them straight to their respective home pages.
+* **Doctor Module**:
+    * Add, edit, and delete availability slots.
+    * View all appointments booked for them.
+    * View detailed appointment information including patient name, appointment date & time, and status.
+    * Includes pagination for patient appointments to handle growing lists efficiently.
+* **Patient Module**:
+    * Search doctors using name, specialization, or available date.
+    * View detailed doctor profiles and available slots.
+    * Book available appointments.
+    * View personal booked appointments history.
+    * Includes pagination for doctor searches to handle large datasets seamlessly.
 
 ---
 
