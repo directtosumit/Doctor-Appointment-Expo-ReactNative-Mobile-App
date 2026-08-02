@@ -46,7 +46,7 @@ Make sure you have the following installed:
    ```bash
    cd Doctor-Appointment-Expo-ReactNative-Mobile-App
 
-```
+
 
 2. **Install project dependencies:**
 ```bash
