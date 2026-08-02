@@ -44,7 +44,7 @@ Make sure you have the following installed:
 
 1. **Clone the repository and navigate to the mobile app directory:**
    ```bash
-   cd doctor-appointments
+   cd Doctor-Appointment-Expo-ReactNative-Mobile-App
 
 ```
 
