@@ -11,7 +11,7 @@ const doctor_appointments = "doctor_appointments";
 const doctor_search = "doctor_search";
 const doctor_details = "doctor_details";
 const my_appointments = "my_appointments";
-const API_BASE_URL = `http://${Device.isDevice ? `localhost` : `10.0.2.2`}:3306/api`;
+const API_BASE_URL = `http://${Device.isDevice ? `localhost` : `10.0.2.2`}:5000/api`;
 
 export {
   login,

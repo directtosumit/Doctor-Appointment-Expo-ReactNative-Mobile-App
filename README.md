@@ -60,7 +60,7 @@ npm install
 
 ## API Configuration Note
 
-The app automatically configures the backend connection URL based on your environment (`10.0.2.2` for Android Emulators or `localhost` for physical devices/web). Ensure your backend server is running and accessible on port `3306`.
+The app automatically configures the backend connection URL based on your environment (`10.0.2.2` for Android Emulators or `localhost` for physical devices/web). Ensure your backend server is running and accessible on port `5000`.
 
 ---
 
